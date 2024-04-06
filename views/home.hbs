@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to the Quiz</h1>
+
+    <h2>Instructions:</h2>
+    <ul>
+        <li>This quiz consists of {{questions.length}} multiple-choice questions.</li>
+        <li>Select the correct answer for each question.</li>
+        <li>Once you submit the quiz, your score will be calculated.</li>
+    </ul>
+
+    <h2>Enter Your Name to Start the Quiz:</h2>
+    <form action="home" method="post">
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">Start Quiz</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is Node.js?",
+        "options": ["Server-side Framework", "JavaScript Library", "Server-side JavaScript Runtime","Client-side Framework"],
+        "answer": "Server-side JavaScript Runtime"
+    },
+    {
+        "question": "Which module is used for creating web server in Node.js?",
+        "options": ["http", "url", "query", "path"],
+        "answer": "http"
+    },
+    {
+        "question": "What does event-driven programming mean?",
+        "options": ["Synchronous programming", "Asynchronous programming", "Multi-threaded programming", "Single-threaded programming"],
+        "answer": "Asynchronous programming"
+    },
+    {
+        "question": "What is callback?",
+        "options": ["A function calling another function", "A function passed as an argument to another function", "A function that calls itself"],
+        "answer": "A function passed as an argument to another function"
+    },
+    {
+        "question": "Which of the following is not a framework of Node.js?",
+        "options": ["Express", "Meteor", "JQuery", "Koa"],
+        "answer": "JQuery"
+    },
+    {
+        "question": "Which method of the fs module is used to read a file?",
+        "options": ["readFile", "read", "open", "readFileSync"],
+        "answer": "readFile"
+    },
+    {
+        "question": "Which statement is true about EventEmitter in Node.js?",
+        "options": ["It is a class in Node.js", "It is a module in Node.js", "It is an interface in Node.js", "None of the above"],
+        "answer": "It is a class in Node.js"
+    },
+    {
+        "question": "What is the use of Buffer class in Node.js?",
+        "options": ["To handle binary data", "To handle the file system", "To handle the network operations", "To handle the events"],
+        "answer": "To handle binary data"
+    },
+    {
+        "question": "What is the purpose of module.exports in Node.js?",
+        "options": ["To define the properties of module", "To make a module public", "To import a module", "To export the properties of module"],
+        "answer": "To export the properties of module"
+    },
+    {
+        "question": "What does NPM stand for?",
+        "options": ["Node Package Manager", "Node Project Manager", "New Package Manager", "None of the above"],
+        "answer": "Node Package Manager"
+    }
+]

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <form action="/submit-quiz" method="post">
+        {{#each questions}}
+        <h3>{{question}}</h3>
+        <ol>
+            {{#each options}}
+                <li>
+                    <input type="radio" name="{{../question}}" value="{{this}}">
+                    <label for="{{this}}">{{this}}</label>
+                </li>
+            {{/each}}
+        </ol>
+        {{/each}}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
