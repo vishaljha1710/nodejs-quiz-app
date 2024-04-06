@@ -10,6 +10,9 @@ This is a simple quiz application built using Node.js and Express.
 - Thank you page displaying the user's score.
 - We can add or remove any question by editing the questions.json file in the root directory.
 
+## Also check the live version at :
+- https://nodejs-quiz-app-x1fl.onrender.com
+
 ## Screenshots
 
 ### Home
